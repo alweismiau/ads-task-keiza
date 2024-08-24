@@ -17,23 +17,6 @@
   }
 }
 
-/* Menggunakan @font-face untuk font Inter */
-@font-face {
-  font-family: 'Inter';
-  src: url('/path/to/Inter-Regular.woff2') format('woff2'),
-       url('/path/to/Inter-Regular.woff') format('woff');
-  font-weight: 400;
-  font-style: normal;
-}
-
-/* Menggunakan @font-face untuk font Lexend Deca */
-@font-face {
-  font-family: 'Lexend Deca';
-  src: url('../public/font/LexendDeca.ttf') format('ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-
 body {
   font-family: 'Inter', sans-serif;
   color: rgb(var(--foreground-rgb));
